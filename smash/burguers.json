@@ -1,0 +1,165 @@
+{
+    "hamburgueres": [
+      {
+        "id": 1,
+        "nome": "Cheeseburger Clássico",
+        "ingredientes": "Hambúrguer de carne bovina, queijo cheddar, alface, tomate, picles, molho especial, pão brioche",
+        "tempo_preparo": "15 minutos",
+        "preco": 29.99,
+        "descricao": "Um clássico com hambúrguer suculento e queijo cheddar derretido."
+      },
+      {
+        "id": 2,
+        "nome": "Bacon Lover",
+        "ingredientes": "Hambúrguer de carne bovina, bacon crocante, queijo americano, anéis de cebola, molho barbecue, pão de gergelim",
+        "tempo_preparo": "20 minutos",
+        "preco": 34.99,
+        "descricao": "Perfeito para os amantes de bacon, com sabor intenso e crocância."
+      },
+      {
+        "id": 3,
+        "nome": "Veggie Supreme",
+        "ingredientes": "Hambúrguer de grão-de-bico, alface, tomate, cebola roxa, abacate, maionese vegana, pão integral",
+        "tempo_preparo": "18 minutos",
+        "preco": 27.50,
+        "descricao": "Opção vegana deliciosa, com um toque saudável e fresco."
+      },
+      {
+        "id": 4,
+        "nome": "Duplo Smash",
+        "ingredientes": "Dois hambúrgueres smash de carne bovina, queijo cheddar duplo, picles, molho especial, pão brioche",
+        "tempo_preparo": "12 minutos",
+        "preco": 32.99,
+        "descricao": "Sabor e crocância em dobro, com queijo extra e molho especial."
+      },
+      {
+        "id": 5,
+        "nome": "Cheddar e Cebola Caramelizada",
+        "ingredientes": "Hambúrguer de carne bovina, cheddar cremoso, cebola caramelizada, bacon, pão australiano",
+        "tempo_preparo": "17 minutos",
+        "preco": 33.49,
+        "descricao": "A combinação perfeita entre o sabor do cheddar e a cebola doce caramelizada."
+      },
+      {
+        "id": 6,
+        "nome": "Frango Crocante",
+        "ingredientes": "Peito de frango empanado, alface, tomate, maionese de ervas, pão de batata",
+        "tempo_preparo": "15 minutos",
+        "preco": 28.99,
+        "descricao": "Frango crocante por fora e suculento por dentro, com um toque de frescor."
+      },
+      {
+        "id": 7,
+        "nome": "BBQ Ranch",
+        "ingredientes": "Hambúrguer de carne bovina, queijo suíço, bacon, molho ranch, molho barbecue, pão de gergelim",
+        "tempo_preparo": "20 minutos",
+        "preco": 31.99,
+        "descricao": "A mistura perfeita de molhos BBQ e Ranch, combinados com bacon crocante."
+      },
+      {
+        "id": 8,
+        "nome": "Picante Mexicano",
+        "ingredientes": "Hambúrguer de carne bovina, queijo pepper jack, jalapeños, guacamole, cebola roxa, molho chipotle, pão brioche",
+        "tempo_preparo": "22 minutos",
+        "preco": 35.50,
+        "descricao": "Para os amantes de pimenta, com um toque mexicano e picância na medida certa."
+      },
+      {
+        "id": 9,
+        "nome": "Salada de Frango",
+        "ingredientes": "Peito de frango grelhado, alface, tomate, queijo feta, molho de iogurte, pão integral",
+        "tempo_preparo": "16 minutos",
+        "preco": 27.99,
+        "descricao": "Hambúrguer leve e saudável com frango grelhado e molho refrescante."
+      },
+      {
+        "id": 10,
+        "nome": "Gorgonzola Gourmet",
+        "ingredientes": "Hambúrguer de carne bovina, queijo gorgonzola, rúcula, cebola caramelizada, maionese trufada, pão brioche",
+        "tempo_preparo": "18 minutos",
+        "preco": 37.99,
+        "descricao": "Combinação gourmet com sabor intenso do gorgonzola e toque trufado."
+      },
+      {
+        "id": 11,
+        "nome": "Frango Empanado com Parmesão",
+        "ingredientes": "Peito de frango empanado, queijo parmesão, molho de tomate, rúcula, pão ciabatta",
+        "tempo_preparo": "19 minutos",
+        "preco": 32.50,
+        "descricao": "Frango empanado com uma camada crocante de parmesão e toque italiano."
+      },
+      {
+        "id": 12,
+        "nome": "Duplo Bacon e Cheddar",
+        "ingredientes": "Dois hambúrgueres de carne bovina, cheddar duplo, bacon crocante, molho barbecue, pão australiano",
+        "tempo_preparo": "14 minutos",
+        "preco": 36.99,
+        "descricao": "Tudo em dobro para quem ama bacon e cheddar em abundância."
+      },
+      {
+        "id": 13,
+        "nome": "Hambúrguer de Siri",
+        "ingredientes": "Hambúrguer de siri, alface, tomate, molho tártaro, pão de batata",
+        "tempo_preparo": "20 minutos",
+        "preco": 34.49,
+        "descricao": "Diretamente do mar, um hambúrguer leve e delicioso com toque de frutos do mar."
+      },
+      {
+        "id": 14,
+        "nome": "Blue Cheese Deluxe",
+        "ingredientes": "Hambúrguer de carne bovina, queijo azul, cebola roxa, bacon crocante, maionese especial, pão brioche",
+        "tempo_preparo": "17 minutos",
+        "preco": 39.99,
+        "descricao": "O sabor marcante do queijo azul combina perfeitamente com o bacon crocante."
+      },
+      {
+        "id": 15,
+        "nome": "Tofu Oriental",
+        "ingredientes": "Hambúrguer de tofu, broto de feijão, cenoura ralada, molho teriyaki, pão integral",
+        "tempo_preparo": "15 minutos",
+        "preco": 29.99,
+        "descricao": "Opção vegana com um toque oriental e ingredientes frescos."
+      },
+      {
+        "id": 16,
+        "nome": "Pulled Pork Burger",
+        "ingredientes": "Carne de porco desfiada, molho barbecue, coleslaw, cebola crocante, pão brioche",
+        "tempo_preparo": "22 minutos",
+        "preco": 35.99,
+        "descricao": "Carne de porco desfiada e temperada com molho barbecue, com textura e sabor incríveis."
+      },
+      {
+        "id": 17,
+        "nome": "Trio de Queijos",
+        "ingredientes": "Hambúrguer de carne bovina, queijo cheddar, queijo suíço, queijo gouda, picles, pão brioche",
+        "tempo_preparo": "14 minutos",
+        "preco": 33.50,
+        "descricao": "Uma explosão de sabores com três tipos de queijo diferentes."
+      },
+      {
+        "id": 18,
+        "nome": "Picanha Premium",
+        "ingredientes": "Hambúrguer de picanha, queijo coalho, vinagrete, maionese de alho, pão de brioche",
+        "tempo_preparo": "19 minutos",
+        "preco": 39.99,
+        "descricao": "Hambúrguer suculento de picanha com queijo coalho grelhado e vinagrete."
+      },
+      {
+        "id": 19,
+        "nome": "Frango Picante",
+        "ingredientes": "Peito de frango picante empanado, picles, alface, molho de pimenta, pão de batata",
+        "tempo_preparo": "17 minutos",
+        "preco": 30.50,
+        "descricao": "Frango empanado com um tempero picante irresistível, para quem gosta de um toque apimentado."
+      },
+      {
+        "id": 20,
+        "nome": "Portobello Veggie",
+        "ingredientes": "Cogumelo portobello grelhado, alface, tomate, abacate, maionese de ervas, pão integral",
+        "tempo_preparo": "16 minutos",
+        "preco": 28.99,
+        "descricao": "Hambúrguer vegetariano com cogumelo portobello grelhado e ingredientes frescos."
+      }
+    ]
+  }
+  

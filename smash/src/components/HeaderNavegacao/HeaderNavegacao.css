@@ -1,0 +1,33 @@
+.headerNavegacao {
+    background-color: orangered;
+    height: 60px;
+    display: flex;           /* Flexbox para alinhar os itens no header */
+    justify-content: space-between; /* Espaça os itens entre as extremidades */
+    align-items: center;     
+    padding: 0 20px;     
+}
+.header-logo {
+    display: flex;           /* Flexbox para alinhar a logo e o título lado a lado */
+    align-items: center;     /* Centraliza verticalmente */
+}
+.header-logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;     
+}
+.header-logo h3 {
+    font-size: 23px;
+}
+.navegacao {
+    display: flex;           
+    align-items: center;  
+}
+.navegacao p {
+    font-size: 23px;
+    margin: 0 20px;        
+}
+.link-navegacao {
+    text-decoration: none;
+    color: inherit; 
+}
