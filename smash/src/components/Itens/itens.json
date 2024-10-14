@@ -1,0 +1,102 @@
+[
+    {
+        "nome": "Hambúrguer Clássico",
+        "descricao": "Um hambúrguer suculento com queijo, alface, tomate e molho especial.",
+        "preco": 15.99,
+        "photo": "/assets/pratos/hamburgue_classico.jpeg",
+        "categoria": {
+            "id": 1,
+            "label": "Tradicionais"
+        }
+    },
+    {
+        "nome": "Cheeseburger",
+        "descricao": "Hambúrguer com uma fatia de queijo cheddar derretido.",
+        "preco": 17.99,
+        "photo": "/assets/pratos/Cheeseburger.jpg",
+        "categoria": {
+            "id": 1,
+            "label": "Tradicionais"
+        }
+    },
+    {
+        "nome": "Hambúrguer de Frango Grelhado",
+        "descricao": "Frango grelhado com maionese, alface e tomate.",
+        "preco": 16.49,
+        "photo": "/assets/pratos/Hambúrguer_de_Frango_Grelhado.jpg",
+        "categoria": {
+            "id": 1,
+            "label": "Tradicionais"
+        }
+    },
+    {
+        "nome": "Hambúrguer Vegano",
+        "descricao": "Feito com grão-de-bico, legumes frescos e molho especial vegano.",
+        "preco": 19.99,
+        "photo": "/assets/pratos/vegano.jpeg",
+        "categoria": {
+            "id": 4,
+            "label": "Veganos"
+        }
+    },
+    {
+        "nome": "Double Bacon Burger",
+        "descricao": "Dois hambúrgueres de carne com queijo e bacon crocante.",
+        "preco": 22.99,
+        "photo": "/assets/pratos/Double_Bacon_Burger.jpg",
+        "categoria": {
+            "id": 2,
+            "label": "Especiais"
+        }
+    },
+    {
+        "nome": "Combo Clássico",
+        "descricao": "Inclui um hambúrguer clássico, fritas e uma bebida.",
+        "preco": 25.99,
+        "photo": "/assets/pratos/Combo_Clássico.jpeg",
+        "categoria": {
+            "id": 3,
+            "label": "Combos"
+        }
+    },
+    {
+        "nome": "Veggie Delight",
+        "descricao": "Um hambúrguer vegano com abacate e molho tahini.",
+        "preco": 21.99,
+        "photo": "/assets/pratos/Veggie_Delight.jpeg",
+        "categoria": {
+            "id": 4,
+            "label": "Veganos"
+        }
+    },
+    {
+        "nome": "Hambúrguer Especial Smash",
+        "descricao": "Hambúrguer smash com queijo especial e cebola caramelizada.",
+        "preco": 19.49,
+        "photo": "/assets/pratos/Hambúrguer_Especial_Smash.jpg",
+        "categoria": {
+            "id": 2,
+            "label": "Especiais"
+        }
+    },
+    {
+        "nome": "Combo Especial",
+        "descricao": "Inclui um hambúrguer especial, fritas e sobremesa.",
+        "preco": 28.99,
+        "photo": "/assets/pratos/Hamburgue_Combo_Especial.jpeg",
+        "categoria": {
+            "id": 3,
+            "label": "Combos"
+        }
+    },
+    {
+        "nome": "Hambúrguer BBQ",
+        "descricao": "Hambúrguer com molho barbecue, cebola e queijo.",
+        "preco": 18.99,
+        "photo": "/assets/pratos/Hambúrguer_BBQ.jpeg",
+        "categoria": {
+            "id": 2,
+            "label": "Especiais"
+        }
+    }
+]

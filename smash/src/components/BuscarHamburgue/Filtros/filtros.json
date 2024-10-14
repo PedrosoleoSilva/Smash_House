@@ -1,0 +1,18 @@
+[
+    {
+        "label": "Tradicionais",
+        "id": 1
+    },
+    {
+        "label": "Especiais",
+        "id": 2
+    },
+    {
+        "label": "Combos",
+        "id": 3
+    },
+    {
+        "label": "Veganos",
+        "id": 4
+    }
+]

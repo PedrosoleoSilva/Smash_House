@@ -1,15 +1,15 @@
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Inicio from './components/Inicio';
-import Cardapio from './components/Cardapio';  
-import Sobre from './components/Sobre';  
-import Contato from './components/Contato';  
+import Cardapio from './components/Pages/Cardapio';
+import Contato from './components/Pages/Contato';
+import Inicio from './components/Pages/Inicio';
+import Sobre from './components/Pages/Sobre';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Inicio />} />
+        <Route path="/" element={<Inicio/>} />
         <Route path="/cardapio" element={<Cardapio />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/contato" element={<Contato />} />

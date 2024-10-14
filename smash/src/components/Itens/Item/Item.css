@@ -1,0 +1,49 @@
+.item {
+    display: flex;  /* Usando flexbox para alinhar a imagem e a descrição lado a lado */
+    margin: 20px; 
+    border: 1px solid #ddd;  
+    border-radius: 8px;  
+    overflow: hidden;  /* Para garantir que não haja overflow da imagem */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  
+    transition: transform 0.2s;  
+}
+
+.item:hover {
+    transform: scale(1.02);  
+}
+
+.imagem {
+    flex: 0 0 250px;  
+    height: 150px;  
+}
+
+.imagem img {
+    width: 100%;  
+    height: 100%;  
+    border-radius: 8px 0 0 8px;  
+    object-fit: cover;  
+}
+
+.descricao {
+    display: flex;
+    flex: 1;  
+    flex-direction: column;  
+    justify-content: center;  
+    padding: 20px;  
+}
+
+.tags {
+    margin-bottom: 10px;  
+}
+
+h2 {
+    margin: 0; 
+    font-size: 1.5rem; 
+    color: #333;  
+}
+
+p {
+    margin: 0;  
+    color: #666; 
+    font-size: 1rem;  
+}
