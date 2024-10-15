@@ -25,7 +25,7 @@ const Inicio = () => {
                         setFiltro={setFiltro}
                     />
                 </div>
-                <Itens/>
+                <Itens busca={busca} filtro={filtro} />
             </section>
         </div>
     );
