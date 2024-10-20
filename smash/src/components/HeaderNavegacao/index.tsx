@@ -11,7 +11,6 @@ const HeaderNavegacao = () => {
             <div className='navegacao'>
                 <Link to="/" className="link-navegacao"><p>Inicio</p></Link>
                 <Link to="/sobre" className="link-navegacao"><p>Sobre</p></Link>
-                <Link to="/contato" className="link-navegacao"><p>Contato</p></Link>
             </div>
         </header>
     );
