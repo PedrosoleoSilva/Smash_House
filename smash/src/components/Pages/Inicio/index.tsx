@@ -2,7 +2,6 @@ import { useState } from "react";
 import Banner from "../../Banner";
 import BuscarHamburgue from "../../BuscarHamburgue";
 import Filtros from "../../BuscarHamburgue/Filtros";
-import HeaderNavegacao from "../../HeaderNavegacao";
 import Itens from "../../Itens";
 
 const Inicio = () => {
@@ -11,7 +10,6 @@ const Inicio = () => {
 
     return (
         <div>
-            <HeaderNavegacao />
             <Banner />
             <section>
                 <BuscarHamburgue

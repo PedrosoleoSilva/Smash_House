@@ -6,7 +6,7 @@ import { TbCurrencyReal } from "react-icons/tb";
 type Props = typeof cardapio[0];
 
 const Item = (props: Props) => {
-    const { nome, photo, descricao, tempo, preco } = props;
+    const { nome, photo, descricao, tempo, preco} = props;
     return (
         <div className='item'>
             <div className='imagem'>
