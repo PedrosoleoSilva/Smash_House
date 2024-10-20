@@ -1,9 +1,10 @@
 .item {
-    display: flex;  /* Usando flexbox para alinhar a imagem e a descrição lado a lado */
+    display: flex;  
     margin: 20px; 
-    border: 1px solid #ddd;  
+    border: 1px solid;  
+    border-color: #C98CF1;
     border-radius: 8px;  
-    overflow: hidden;  /* Para garantir que não haja overflow da imagem */
+    overflow: hidden;  
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  
     transition: transform 0.2s;  
 }
@@ -32,10 +33,30 @@
     padding: 20px;  
 }
 
+.icon {
+    margin-top: 5px;
+}
+
 .tags {
     margin-bottom: 10px;  
 }
 
+.tempo-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.preco-container { 
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    && p{
+        color: red;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
 h2 {
     margin: 0; 
     font-size: 1.5rem; 
@@ -46,4 +67,5 @@ p {
     margin: 0;  
     color: #666; 
     font-size: 1rem;  
+    font-style: italic;
 }

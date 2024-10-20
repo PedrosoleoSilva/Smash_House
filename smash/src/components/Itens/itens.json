@@ -3,6 +3,7 @@
         "nome": "Hambúrguer Clássico",
         "descricao": "Um hambúrguer suculento com queijo, alface, tomate e molho especial.",
         "preco": 15.99,
+        "tempo": "10 minutos",
         "photo": "/assets/pratos/hamburgue_classico.jpeg",
         "categoria": {
             "id": 1,
@@ -13,6 +14,7 @@
         "nome": "Cheeseburger",
         "descricao": "Hambúrguer com uma fatia de queijo cheddar derretido.",
         "preco": 17.99,
+        "tempo": "10 minutos",
         "photo": "/assets/pratos/Cheeseburger.jpg",
         "categoria": {
             "id": 1,
@@ -23,6 +25,7 @@
         "nome": "Hambúrguer de Frango Grelhado",
         "descricao": "Frango grelhado com maionese, alface e tomate.",
         "preco": 16.49,
+        "tempo": "15 minutos",
         "photo": "/assets/pratos/Hambúrguer_de_Frango_Grelhado.jpg",
         "categoria": {
             "id": 1,
@@ -33,6 +36,7 @@
         "nome": "Hambúrguer Vegano",
         "descricao": "Feito com grão-de-bico, legumes frescos e molho especial vegano.",
         "preco": 19.99,
+        "tempo": "8 minutos",
         "photo": "/assets/pratos/vegano.jpeg",
         "categoria": {
             "id": 4,
@@ -43,6 +47,7 @@
         "nome": "Double Bacon Burger",
         "descricao": "Dois hambúrgueres de carne com queijo e bacon crocante.",
         "preco": 22.99,
+        "tempo": "12 minutos",
         "photo": "/assets/pratos/Double_Bacon_Burger.jpg",
         "categoria": {
             "id": 2,
@@ -53,6 +58,7 @@
         "nome": "Combo Clássico",
         "descricao": "Inclui um hambúrguer clássico, fritas e uma bebida.",
         "preco": 25.99,
+        "tempo": "15 minutos",
         "photo": "/assets/pratos/Combo_Clássico.jpeg",
         "categoria": {
             "id": 3,
@@ -63,6 +69,7 @@
         "nome": "Veggie Delight",
         "descricao": "Um hambúrguer vegano com abacate e molho tahini.",
         "preco": 21.99,
+        "tempo": "10 minutos",
         "photo": "/assets/pratos/Veggie_Delight.jpeg",
         "categoria": {
             "id": 4,
@@ -73,6 +80,7 @@
         "nome": "Hambúrguer Especial Smash",
         "descricao": "Hambúrguer smash com queijo especial e cebola caramelizada.",
         "preco": 19.49,
+        "tempo": "12 minutos",
         "photo": "/assets/pratos/Hambúrguer_Especial_Smash.jpg",
         "categoria": {
             "id": 2,
@@ -83,6 +91,7 @@
         "nome": "Combo Especial",
         "descricao": "Inclui um hambúrguer especial, fritas e sobremesa.",
         "preco": 28.99,
+        "tempo": "15 minutos",
         "photo": "/assets/pratos/Hamburgue_Combo_Especial.jpeg",
         "categoria": {
             "id": 3,
@@ -93,6 +102,7 @@
         "nome": "Hambúrguer BBQ",
         "descricao": "Hambúrguer com molho barbecue, cebola e queijo.",
         "preco": 18.99,
+        "tempo": "15 minutos",
         "photo": "/assets/pratos/Hambúrguer_BBQ.jpeg",
         "categoria": {
             "id": 2,
