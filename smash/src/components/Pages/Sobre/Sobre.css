@@ -1,19 +1,31 @@
 .sobre {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.sobre h1 {
+  font-size: 2.5rem;
+  color: #FF4500;
+}
+
+.sobre p {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #333; 
+}
+
+@media (max-width: 768px) {
+  .sobre {
+      padding: 15px;
+      max-width: 100%;
   }
-  
   .sobre h1 {
-    font-size: 2.5rem;
-    color: #FF4500;
+      font-size: 2rem; 
   }
-  
   .sobre p {
-    margin-bottom: 15px;
-    font-size: 1.2rem;
-    color: #333; 
+      font-size: 1rem; 
   }
-  
+}
