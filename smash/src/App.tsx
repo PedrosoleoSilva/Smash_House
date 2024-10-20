@@ -3,6 +3,7 @@ import './App.css';
 import Inicio from './components/Pages/Inicio';
 import Sobre from './components/Pages/Sobre';
 import HeaderNavegacao from './components/HeaderNavegacao';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/sobre" element={<Sobre />} />
         </Routes>
       </main>
+      <Footer/>
     </Router>
   );
 }

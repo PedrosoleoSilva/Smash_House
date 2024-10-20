@@ -1,0 +1,19 @@
+.footer {
+    background: linear-gradient(174.61deg, #FFA500 4.16%, #FF4500 96.76%); 
+    color: white; 
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} 
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+  }
+  .footer-content p {
+    margin: 5px 0; 
+  }
+  
