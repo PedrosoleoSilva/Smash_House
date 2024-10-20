@@ -6,25 +6,22 @@
     border-radius: 8px;  
     overflow: hidden;  
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  
-    transition: transform 0.2s;  
+    transition: transform 0.2s;
+    max-width: 100%; 
 }
-
 .item:hover {
     transform: scale(1.02);  
 }
-
 .imagem {
     flex: 0 0 250px;  
     height: 170px;  
 }
-
 .imagem img {
     width: 100%;  
     height: 100%;  
     border-radius: 8px 0 0 8px;  
     object-fit: cover;  
 }
-
 .descricao {
     display: flex;
     flex: 1;  
@@ -32,30 +29,26 @@
     justify-content: center;  
     padding: 20px;  
 }
-
 .icon {
     margin-top: 5px;
 }
-
 .tags {
     margin-bottom: 10px;  
 }
-
 .tempo-container {
     display: flex;
     align-items: center;
     margin-top: 5px;
 }
-
 .preco-container { 
     display: flex;
     align-items: center;
     margin-top: 5px;
-    && p{
-        color: red;
-        font-weight: bold;
-        font-size: 20px;
-    }
+}
+.preco-container p {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
 }
 h2 {
     margin: 0; 
@@ -67,4 +60,28 @@ p {
     color: #666; 
     font-size: 1rem;  
     font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .item {
+        flex-direction: column; 
+        margin: 10px; 
+    }
+    .imagem {
+        flex: none;  
+        width: 100%; 
+        height: auto; 
+    }
+    .descricao {
+        padding: 15px; 
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 0.9rem; 
+    }
+    .preco-container p {
+        font-size: 18px; 
+    }
 }
